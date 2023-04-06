@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tips",
+  "info": {
+    "singularName": "tip",
+    "pluralName": "tips",
+    "displayName": "Tip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tip": {
+      "type": "richtext",
+      "required": true
+    },
+    "plant": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::plant.plant"
+    },
+    "botanist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}
