@@ -4,7 +4,8 @@
   "info": {
     "singularName": "plant",
     "pluralName": "plants",
-    "displayName": "Plant"
+    "displayName": "Plant",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,14 +23,12 @@
     "owner": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "admin::user"
+      "target": "plugin::users-permissions.user"
     },
-    "pictures": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+    "images": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
     }
   }
 }

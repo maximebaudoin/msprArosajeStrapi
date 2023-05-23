@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tip",
     "pluralName": "tips",
-    "displayName": "Tip"
+    "displayName": "Tip",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,7 +24,7 @@
     "botanist": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "admin::user"
+      "target": "plugin::users-permissions.user"
     }
   }
 }

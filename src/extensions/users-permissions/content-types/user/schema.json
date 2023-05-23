@@ -70,6 +70,11 @@
       "type": "component",
       "repeatable": true,
       "component": "location.address"
+    },
+    "profile_picture": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image.image"
     }
   }
 }
