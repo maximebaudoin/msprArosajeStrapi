@@ -74,7 +74,7 @@
     "profile_picture": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::image.image"
+      "target": "api::avatar.avatar"
     }
   }
 }
