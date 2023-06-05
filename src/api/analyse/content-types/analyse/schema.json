@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analyses",
+  "info": {
+    "singularName": "analyse",
+    "pluralName": "analyses",
+    "displayName": "Analyse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plantIdData": {
+      "type": "json"
+    }
+  }
+}
