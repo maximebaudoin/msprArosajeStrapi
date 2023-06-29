@@ -10,11 +10,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.9.2",
-    "@strapi/plugin-i18n": "4.9.0",
-    "@strapi/plugin-users-permissions": "4.9.0",
-    "@strapi/strapi": "4.9.0",
+    "@strapi/plugin-documentation": "^4.11.2",
+    "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/strapi": "4.11.2",
+    "@surunnuage/strapi-plugin-expo-notifications": "^1.0.7",
     "mysql": "2.18.1",
+    "strapi-google-auth": "^0.1.2",
+    "strapi-plugin-generate-data": "^1.0.23",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {

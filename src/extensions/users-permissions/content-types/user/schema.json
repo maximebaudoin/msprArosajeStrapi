@@ -9,8 +9,7 @@
     "displayName": "User"
   },
   "options": {
-    "draftAndPublish": false,
-    "timestamps": true
+    "draftAndPublish": false
   },
   "attributes": {
     "username": {
@@ -75,6 +74,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::avatar.avatar"
+    },
+    "expoPushToken": {
+      "type": "text"
     }
   }
 }

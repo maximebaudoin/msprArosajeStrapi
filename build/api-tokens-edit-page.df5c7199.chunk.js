@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmspr_arosaje_strapi=self.webpackChunkmspr_arosaje_strapi||[]).push([[92],{28465:(r,s,e)=>{e.r(s),e.d(s,{default:()=>_});var t=e(53547),E=e(42609),a=e(87751),n=e(57692);const _=()=>t.createElement(E.CheckPagePermissions,{permissions:a.Z.settings["api-tokens"].read},t.createElement(n.Z,null))}}]);
